@@ -26,16 +26,10 @@ let number2= 4;
 let remainder= number1 % number2;
 console.log(remainder);
 
-import java.until.Scanner;
-
-public class CircleAreaCalculator {
-  public static void main  (string[] args)
-// Create a Scanner object to read input
-Scanner scanner = new Scanner (System in)
-
-// Ask the user for the radius
-
-
+let Speedinput=72; //KM/h = M/s
+let Speedoutput=20;
+Speedoutput = Speedinput/3.6;
+console.log(Speedoutput);
 
 
 
