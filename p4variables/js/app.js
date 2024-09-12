@@ -13,8 +13,6 @@ console.log(numberOfBottle)
 console.log(line1)
 console.log(line2)
 console.log(numberOfBottle)
-
-
 console.log(line1);
 console.log(line2);
 console.log(--numberOfBottle)
