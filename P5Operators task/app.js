@@ -32,6 +32,27 @@ Speedoutput = Speedinput/3.6;
 console.log(Speedoutput);
 
 
+function calculateCircleArea(radius) {
+
+  const pi = Math.PI;
+
+  const radiusSquared = radius * radius;
+
+
+  const area = pi * radiusSquared;
+
+
+  return area.toFixed(1);
+}
+
+const radius = 2;
+
+
+const area = calculateCircleArea(radius);
+
+
+console.log("The area of the circle is:", area);
+
 
 
 
