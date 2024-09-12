@@ -20,5 +20,24 @@ Divisioninput2 = Twonumberinput/2.75;
 console.log(Divisioninput1);
 console.log(Divisioninput2);
 
+let number1 =11; //OK that was strangely easy.
+let number2= 4;
+
+let remainder= number1 % number2;
+console.log(remainder);
+
+import java.until.Scanner;
+
+public class CircleAreaCalculator {
+  public static void main  (string[] args)
+// Create a Scanner object to read input
+Scanner scanner = new Scanner (System in)
+
+// Ask the user for the radius
+
+
+
+
+
 
 
