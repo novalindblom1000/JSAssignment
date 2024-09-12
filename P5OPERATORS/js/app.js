@@ -1,10 +1,12 @@
 
 
+let firstNumber:number=10;
+let secondNumber:number=20;
+let answer:number=0;
+//1+2=3
 
-let One:number= 1;
-let Two:number= 2;
-Answer= One + Two;
+answer = firstNumber + secondNumber;
+console.log(answer);
 
-(console.log(Answer);
-
-
+answer = firstNumber + secondNumber;
+console.log(answer);
