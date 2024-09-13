@@ -1,10 +1,13 @@
+import {Speedoutput} from "./speedoutput";
+
 let Speedinput=72; //KM/h = M/s
-let Speedoutput=20;
+Speedoutput = 20;
 Speedoutput = Speedinput/3.6;
 console.log(Speedoutput);
 
 let minutesInput =3;
-let secondsOutput= 180;
+let secondsOutput;
+secondsOutput = 180;
 
 minutesInput= secondsOutput *60; //Minutes to seconds
 console.log (minutesInput);
@@ -30,6 +33,8 @@ let Speedinput=72; //KM/h = M/s
 let Speedoutput=20;
 Speedoutput = Speedinput/3.6;
 console.log(Speedoutput);
+
+
 
 
 function calculateCircleArea(radius) {
