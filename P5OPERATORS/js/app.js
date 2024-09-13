@@ -1,7 +1,15 @@
+let firstnumber =7;
+let secondnumber =4;
+let answer;
 
-let Numbersofstudents:number = 10;
+answer=firstnumber + secondnumber;
+console.log (answer);
 
-Numbersofstudents = +1;
+answer=firstnumber - secondnumber;
+console.log(answer);
 
+answer=firstnumber * secondnumber;
+console.log(answer);
 
-console.log(Numbersofstudents)
+answer=firstnumber/secondnumber;
+console.log(answer);
