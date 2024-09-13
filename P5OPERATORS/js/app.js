@@ -13,3 +13,6 @@ console.log(answer);
 
 answer=firstnumber/secondnumber;
 console.log(answer);
+
+answer = firstnumber % secondnumber;
+console.log(answer);
