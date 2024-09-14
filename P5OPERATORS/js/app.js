@@ -37,6 +37,23 @@ dividing1= Inputnumber1/Inputnumber2;
 console.log(dividing1);
 
 
+Innremainder1=11;
+Innremainder2=4;
+RemainderA=0;
+
+RemainderA= Innremainder1 % Innremainder2;
+console.log(RemainderA);
+
+Radiusinput=Math.pow(2,2);
+Piecalc= 3.14;
+Areaanswer=0;
+
+Areaanswer= Radiusinput*Piecalc;
+console.log(Areaanswer)
+
+
+
+
 
 
 
