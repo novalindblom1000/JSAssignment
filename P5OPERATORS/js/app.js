@@ -26,3 +26,18 @@ console.log(Secondsperminute);
 Minutesnumber=3;
 Secondsdisplay=0;
 
+Secondsdisplay= Minutesnumber *60;
+console.log(Secondsdisplay);
+
+Inputnumber1=11;
+Inputnumber2=4;
+Dividing1=0;
+
+dividing1= Inputnumber1/Inputnumber2;
+console.log(dividing1);
+
+
+
+
+
+
