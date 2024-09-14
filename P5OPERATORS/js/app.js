@@ -51,6 +51,14 @@ Areaanswer=0;
 Areaanswer= Radiusinput*Piecalc;
 console.log(Areaanswer)
 
+NumberA=11;
+numberB=-1;
+negationanswer=0;
+
+negationanswer= NumberA * numberB;
+console.log(negationanswer);
+
+
 
 
 
