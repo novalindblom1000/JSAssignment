@@ -1,31 +1,17 @@
-const birthYear=2000;
-const currentyear=2024;
-let ageOfperson = currentyear-birthYear;
+const birthYear = 2010;
+const currentYear = 2024;
+let ageOfPerson = currentYear - birthYear;
+console.log(ageOfPerson);
 
-let isChild=(ageOfperson <=0) && (ageOfperson <=10);
-let isTeen=(ageOfperson <=11) && (ageOfperson <=17);
+// Save to a let variable named isChild, when the age is from 0 till 10.
+let isChild = (ageOfPerson >= 0) && (ageOfPerson <= 10);
 
-let isAdult= ageOfperson >=18;
-console.log(isAdult);
+// Save to a let variable named isTeenager, when the age is from 11 to 17
+let isTeenager = (ageOfPerson >= 11) && (ageOfPerson <= 17);
+
+// Save to a let variable named isAdult, when the age is 18 or more.
+let isAdult =  ageOfPerson >= 18;
+
 console.log(isChild);
-console.log(isTeen);
-
-
-let playerTouchGround=false;
-let playerMissJetpack=true;
-
-if (playerTouchGround) {
-
-  console.log("Player is on the ground!");
-  console.log("player can jump!");
-}
-
-else if (playerMissJetpack) {
-  console.log ("player can jet away");
-}
-
-else {
-  console.log("player is not on ground")
-  console.log("Player cannot jump")
-
-}
+console.log(isTeenager);
+console.log(isAdult);
