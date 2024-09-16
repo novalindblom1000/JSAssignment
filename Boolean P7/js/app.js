@@ -13,20 +13,4 @@ let isTeenager = (ageOfPerson >= 11) && (ageOfPerson <= 17);
 let isAdult =  ageOfPerson >= 18;
 
 
-if(isChild){
-
-  console.log("you are a child");
-}
-
-else if(isTeenager){
-
-  console.log("you teenager");
-}
-
-else (isAdult) {
-
-  console.log("Adult, grown up");
-
-}
-
 
