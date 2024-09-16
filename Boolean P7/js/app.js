@@ -9,3 +9,4 @@ let isAdult= ageOfperson >=18;
 console.log(isAdult);
 console.log(isChild);
 console.log(isTeen);
+
