@@ -12,6 +12,21 @@ let isTeenager = (ageOfPerson >= 11) && (ageOfPerson <= 17);
 // Save to a let variable named isAdult, when the age is 18 or more.
 let isAdult =  ageOfPerson >= 18;
 
-console.log(isChild);
-console.log(isTeenager);
-console.log(isAdult);
+
+if(isChild){
+
+  console.log("you are a child");
+}
+
+else if(isTeenager){
+
+  console.log("you teenager");
+}
+
+else (isAdult) {
+
+  console.log("Adult, grown up");
+
+}
+
+
