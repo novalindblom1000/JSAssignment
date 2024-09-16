@@ -1,6 +1,7 @@
 const birthYear = 2010;
 const currentYear = 2024;
 let ageOfPerson = currentYear - birthYear;
+let favoritenumber = 77777777
 console.log(ageOfPerson);
 
 
@@ -29,3 +30,7 @@ if(isAdult) {
 
 }
 
+else if (favoritenumber){
+  console.log(77777777)
+
+}
