@@ -42,5 +42,12 @@ else {
   console.log("Age is Greater");
 }
 
+if (favoriteNumber % 2===0){
+
+  console.log("VIP CEO CLASS");
+}
+
 console.log("Favorite Number is Even");
 console.log("Favorite Number is Odd");
+
+///if(favoriteNumber % 2===0)
