@@ -1,9 +1,10 @@
 const birthYear = 2010;
 const currentYear = 2024;
-let ageOfPerson = currentYear - birthYear;
-let favoritenumber = 77777777
-console.log(ageOfPerson);
+let favoriteNumber = 77777777
 
+let ageOfPerson = currentYear - birthYear;
+
+console.log(ageOfPerson);
 
 // Save to a let variable named isChild, when the age is from 0 till 10.
 let isChild = (ageOfPerson >= 0) && (ageOfPerson <= 10);
@@ -13,9 +14,7 @@ let isTeenager = (ageOfPerson >= 11) && (ageOfPerson <= 17);
 let isAdult =  ageOfPerson >= 18;
 
 if (isChild) {
-
-console.log ("kindgardener");
-
+console.log ("Kindgardener");
 }
 
 if (isTeenager) {
@@ -27,10 +26,21 @@ if (isTeenager) {
 if(isAdult) {
 
   console.log ("Adult years");
-
 }
 
-else if (favoritenumber){
-  console.log(77777777)
+console.log(favoriteNumber);
 
+if (favoriteNumber > ageOfPerson) { // FALSE
+  console.log("Favorite Number is Greater");
 }
+
+else if (favoriteNumber === ageOfPerson) {
+  console.log("They are the same!")
+}
+
+else {
+  console.log("Age is Greater");
+}
+
+console.log("Favorite Number is Even");
+console.log("Favorite Number is Odd");
