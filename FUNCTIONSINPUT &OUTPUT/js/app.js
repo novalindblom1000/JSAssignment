@@ -18,3 +18,8 @@ function add(Ben, Ting){
   return ben + ting;
 
   console.log(add("Welcome Ben Ting!"));
+
+  function welcomeUsers(name1,name2){
+    return'welcome'+name1+name2;
+  }
+console.log
