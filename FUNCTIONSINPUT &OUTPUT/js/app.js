@@ -1,6 +1,9 @@
 
 
-function Squared () {
+function multiplyBySelf (Number2multiply){
 
-return;
+return Number2multiply * 2
+
+
 }
+console.log
