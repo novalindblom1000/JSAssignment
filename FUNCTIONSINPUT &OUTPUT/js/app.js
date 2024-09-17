@@ -2,8 +2,8 @@
 
 function multiplyBySelf (Number2multiply){
 
-return Number2multiply * 2
+return Number2multiply & Number2multiply
 
 
 }
-console.log
+console.log(Number2multiply)
