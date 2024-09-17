@@ -10,10 +10,9 @@ let score;
 function increaseBy(inputNumber){
 score
 }
-function  updateScore(){
+function updateScore(){
   "text"
   score
-
 }
 
 increaseBy(1);
