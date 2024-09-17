@@ -19,7 +19,9 @@ function add(Ben, Ting){
 
   console.log(add("Welcome Ben Ting!"));
 
+  
   function welcomeUsers(name1,name2){
     return'welcome'+name1+name2;
   }
-console.log
+
+console.log(welcomeUsers(Ben,Ting));
