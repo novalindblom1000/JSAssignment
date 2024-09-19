@@ -23,5 +23,5 @@ function average(firstNumber, secondNumber) {
 }
 
 function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+  return Math.floor(Math.random() * 2);
 }
