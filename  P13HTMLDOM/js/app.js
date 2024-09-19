@@ -1,23 +1,20 @@
-
-
-
-
 const button0 = document.getElementById("button0");
 
-button0.addEventListener("click", () => {increaseBy();});
+let score = 0; // Initialize the score
 
-let score;
-function increaseBy(inputNumber){
-score
-}
-function updateScore(){
-  "text"
-  score
+// Function to increase the score by a given number
+function increaseBy(inputNumber) {
+  score += inputNumber; // Increase the score by inputNumber
+  updateScore(); // Update the displayed score
 }
 
-increaseBy(1);
+// Function to update the score in the <p> element
+function updateScore() {
+  document.getElementById("text").innerHTML = "Score: " + score; // Update the text content
+}
+
+// Add event listener to the button to increase score by 1 on click
+button0.addEventListener("click", () => { increaseBy(1); });
+
+// Initial call to update the score display
 updateScore();
-
-
-//button id="button0"> yesss /button> -old stuff should place in html.
-

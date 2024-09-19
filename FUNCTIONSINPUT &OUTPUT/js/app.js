@@ -32,4 +32,12 @@ function oneName(name3='name'){
 }
 console.log(oneName());
 
+function twoName(name4='cooool'){
+  return name4 + ' ' + 'return to sender' + 'make the person send witchcraft underwear burn on fire ouch';
+}
+console.log(twoName());
 
+function threeName(name7='cooool'){
+  return name7 + ' ' + 'return to sender' + ' ' + 'cooke on water stop sending evil intention evil person' + ' hang out with Hathor need a skin help and skincare ;) ';
+}
+console.log(threeName());

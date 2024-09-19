@@ -1,13 +1,8 @@
 
-console.log("Move Forward.");
-
-console.log("Turn Right.");
-
 
 
 stepForward()
 turnRight()
-
 stepForward()
 walkThreeSteps()
 turnleft ()
@@ -25,7 +20,6 @@ function turnleft () {
   turnRight()
   turnRight()
   turnRight()
-
 }
 
 //a function connected to previous function so will actually turn left cause can't
@@ -34,6 +28,4 @@ function walkThreeSteps(){
   stepForward()
   stepForward()
   stepForward()
-
-
 }
