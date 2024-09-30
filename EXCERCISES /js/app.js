@@ -3,30 +3,55 @@
 // based on the following scale A: 90-100,
 //B: 80-89 , C: 70-79,  D: 60-69 , F: <60,         Input: 90   Output: A
 
-
-function convertnumber (number){
-
-  if (90 <= number <= 100){
+function covertNumber (number) {
+  if (number >=90 && number <=100){
     return "A";
   }
-  else if (80 <= number <= 89) {
+  else if (number >=80 && number <=89){
     return "B";
-
   }
-  else if (70 <= number <= 79) {
+  else if (number >=70 && number <=79){
     return "C";
   }
-  else if (60 <= number <= 69) {
+  else if (number >=60 && number <=69){
     return "D";
   }
-  else if(numberr <=0) {
-  return "F";
+  else if (number < 60){
+    return "F";
+  }
+  else {
+    return "Invalid input";
   }
 }
 
-console.log(convertnumber(90 <= number <= 100));
-console.log(convertnumber(80 <= number <= 89));
-console.log(convertnumber(70 <= number <= 79);
-console.log(convertnumber(60 <= number <= 69);
-console.log(convertnumber(numberr <=0));
+console.log(covertNumber(90));
+console.log(covertNumber(85));
+console.log(covertNumber(75));
+console.log(covertNumber(65));
+console.log(covertNumber(50));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
