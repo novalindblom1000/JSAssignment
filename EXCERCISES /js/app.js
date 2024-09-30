@@ -19,9 +19,14 @@ function convertnumber (number){
   else if (60 <= number <= 69) {
     return "D";
   }
-  else{
+  else if(numberr <=0) {
   return "F";
   }
 }
 
+console.log(convertnumber(90 <= number <= 100));
+console.log(convertnumber(80 <= number <= 89));
+console.log(convertnumber(70 <= number <= 79);
+console.log(convertnumber(60 <= number <= 69);
+console.log(convertnumber(numberr <=0));
 
