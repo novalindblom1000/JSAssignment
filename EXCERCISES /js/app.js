@@ -39,9 +39,10 @@ const input = 7;
 const input 100;
 
 function GetminMax () {
-
-
+      }
 }
+
+get 
 
 
 
