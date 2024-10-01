@@ -34,15 +34,7 @@ console.log(covertNumber(50));
 
 //MAXMIN TASK.
 
-const input =12;
-const input = 7;
-const input 100;
 
-function GetminMax () {
-      }
-}
-
-get 
 
 
 
