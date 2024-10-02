@@ -12,7 +12,7 @@ function getRandomInt(){
 for (let i = 0; i < 6; i++) {
   let randomArrayIndex=getRandomInt();
   console.log(possibleCharacters[randomArrayIndex]);
-  
+
   console.log(possibleCharacters[getRandomInt()]);
 }
 
